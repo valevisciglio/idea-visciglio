@@ -1,0 +1,142 @@
+.titulo-header{
+    &:hover{
+        transform: scale(1.15);
+    }
+
+    .nav.link.active.texto-header{
+        &:hover{
+            color: $color-principal;
+        }
+    }
+}
+
+.seccion-1{
+
+    width: 100%;
+    height:700px;
+    background-image: url(../img/construccion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px; 
+
+    .titulo-1{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 20px;
+        position: relative;
+        top: 250px;
+        text-shadow: 3px 3px 3px black;
+    }
+
+    .texto-1{
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 16px;
+        position: relative;
+        top: 255px;
+    }
+    
+}
+
+.seccion-2{
+    font-size: 36px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    font-style: normal;
+    text-align: center;
+}
+
+.seccion-3{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    .sobre-nosotros{
+        text-align: right;
+        font-size: 36px;
+        margin-right: 40px;
+        margin-bottom: 16px;
+    }
+
+    .texto-2{
+        font-size: 18px;
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+    }
+}
+
+.seccion-4{
+    font-size: 36px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.grilla-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(2, 400px);
+    margin-left: 80px;
+    margin-right: 80px;
+
+    @media screen and (max-width:780px) {
+        .grilla-1{
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+    }
+
+}
+
+.grilla-img{
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+
+        &:hover{
+        transform: scale(1.05);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);  
+        }
+    }
+
+.seccion-5{
+    margin-top: 48px;
+    margin-bottom: 24px;
+    font-size: 36px;
+    text-align: center;
+
+    
+
+}
+
+.donde-encontrarnos-imagen{
+        margin-bottom: 16px;
+}
+
+.tarjeta-2{
+            background-color: $color-background;
+            box-shadow: 3px 3px 3px rgb(219, 219, 219);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 15px;
+            width: 400px;
+            text-align: center;
+            height: auto;
+            display: inline-block;
+            font-size: 18px;
+
+    &:hover{
+        box-shadow: 9px 9px 7px rgb(219, 219, 219);
+        background-color: $color-background-hover;
+
+    }
+
+}

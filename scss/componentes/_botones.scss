@@ -1,0 +1,11 @@
+.boton-color{
+    background-color: $color-principal;
+    border: 0;
+
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.514);
+        border: 0;
+        background-color: $color-boton-hover;
+    }
+}

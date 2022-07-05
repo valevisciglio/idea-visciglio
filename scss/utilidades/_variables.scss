@@ -1,0 +1,16 @@
+$color-principal:rgb(231, 150, 0);
+$color-principal-1: black;
+$color-secundario: grey;
+$color-background: rgb(240, 240, 240);
+$color-background-hover: rgb(228, 228, 228);
+$color-boton-hover: rgb(187, 121, 0);
+
+
+
+.titulo{
+    color: $color-principal-1;
+}
+
+.subtitulo{
+    color: $color-secundario;
+}
