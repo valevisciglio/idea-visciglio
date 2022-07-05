@@ -1,0 +1,55 @@
+.seccion-sobre-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-sobre-nosotros{
+        font-size: 36px;
+        text-align: left;
+        margin-left: 80px;
+        margin-top: 170px;
+        width: 100%;
+
+}
+
+.texto-sobre-nosotros{
+            font-size: 18px;
+            margin-left: 80px;
+            width: 75%;
+            margin-top: 45px;
+            color: $color-secundario;
+    }
+
+.imagen-equipo{
+        margin-top: 80px;
+        width: 50%;
+        background-position: right;
+    
+    @media screen and (max-width:780px) {
+                
+    }
+    
+    .seccion-sobre-nosotros{
+    flex-direction: column;
+}
+}
+
+.seccion-valores{
+    background-color: black;
+    padding: 10px;
+
+    .titulo-valores{
+        font-size: 36px;
+        text-align: right;
+        margin-right: 80px;
+        margin-top: 48px;
+        color: white;
+    }
+
+}
+
+.titulo-equipo{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 32px;
+}

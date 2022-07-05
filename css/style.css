@@ -48,6 +48,91 @@
   margin-top: 8px;
 }
 
+.tarjeta-2-imagen {
+  margin-bottom: 16px;
+}
+
+.tarjeta-2 {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 3px 3px 3px rgb(219, 219, 219);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  width: 400px;
+  text-align: center;
+  height: auto;
+  display: inline-block;
+  font-size: 18px;
+}
+.tarjeta-2:hover {
+  box-shadow: 9px 9px 7px rgb(219, 219, 219);
+  background-color: rgb(228, 228, 228);
+}
+
+.tarjeta-valores {
+  color: white;
+  border: solid 2px black;
+  padding: 10px;
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 16px;
+  width: 300px;
+  height: auto;
+  display: inline-block;
+}
+.tarjeta-valores .texto-valores {
+  color: rgb(231, 150, 0);
+  margin-top: 16px;
+}
+
+.tarjeta-equipo {
+  padding: 10px;
+  margin-left: 45px;
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  font-size: 18px;
+}
+.tarjeta-equipo:hover {
+  transform: scale(1.1);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.imagen-persona {
+  width: 300px;
+}
+
+.tarjeta-trabajos {
+  border: solid 2px white;
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  width: 350px;
+  height: auto;
+  display: inline-block;
+  font-size: 18px;
+}
+.tarjeta-trabajos:hover {
+  transform: scale(1.1);
+  color: rgb(231, 150, 0);
+}
+.tarjeta-trabajos .imagen-trabajos {
+  width: 350px;
+  border-radius: 6px;
+}
+.tarjeta-trabajos .titulo-tarjeta {
+  margin-top: 12px;
+}
+.tarjeta-trabajos:hover {
+  color: rgb(231, 150, 0);
+}
+.tarjeta-trabajos .texto-tarjeta {
+  color: grey;
+}
+
 .titulo-header:hover {
   transform: scale(1.15);
 }
@@ -150,25 +235,84 @@
   text-align: center;
 }
 
-.donde-encontrarnos-imagen {
-  margin-bottom: 16px;
+.seccion-sobre-nosotros {
+  display: flex;
+  justify-content: space-between;
 }
 
-.tarjeta-2 {
-  background-color: rgb(240, 240, 240);
-  box-shadow: 3px 3px 3px rgb(219, 219, 219);
-  border-radius: 10px;
-  padding: 25px;
-  margin: 15px;
-  width: 400px;
-  text-align: center;
-  height: auto;
-  display: inline-block;
-  font-size: 18px;
+.titulo-sobre-nosotros {
+  font-size: 36px;
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 170px;
+  width: 100%;
 }
-.tarjeta-2:hover {
-  box-shadow: 9px 9px 7px rgb(219, 219, 219);
-  background-color: rgb(228, 228, 228);
+
+.texto-sobre-nosotros {
+  font-size: 18px;
+  margin-left: 80px;
+  width: 75%;
+  margin-top: 45px;
+  color: grey;
+}
+
+.imagen-equipo {
+  margin-top: 80px;
+  width: 50%;
+  background-position: right;
+}
+.imagen-equipo .seccion-sobre-nosotros {
+  flex-direction: column;
+}
+
+.seccion-valores {
+  background-color: black;
+  padding: 10px;
+}
+.seccion-valores .titulo-valores {
+  font-size: 36px;
+  text-align: right;
+  margin-right: 80px;
+  margin-top: 48px;
+  color: white;
+}
+
+.titulo-equipo {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.titulo-trabajos {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.texto-trabajos {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 8px;
+  color: grey;
+}
+
+.seccion-blog {
+  margin-top: 140px;
+}
+
+.texto-noticia {
+  color: grey;
+}
+
+.seccion-formulario {
+  margin-top: 100px;
+}
+
+.texto-contacto {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 8px;
+  color: grey;
 }
 
 /*# sourceMappingURL=style.css.map */

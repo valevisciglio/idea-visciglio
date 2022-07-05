@@ -55,3 +55,78 @@
     }
 
 }
+
+
+.tarjeta-valores{
+    color: white;
+    border: solid 2px black;
+    padding: 10px ; 
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 16px;
+    width: 300px;
+    height: auto;
+    display: inline-block;
+
+    .texto-valores{
+        color: $color-principal;
+        margin-top: 16px;
+    }
+   
+}
+
+.tarjeta-equipo{
+    padding: 10px;
+    margin-left: 45px;
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    font-size: 18px;
+
+    &:hover{
+        transform: scale(1.1);
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    
+}
+.imagen-persona{
+        width: 300px;
+    }
+
+.tarjeta-trabajos{
+    border: solid 2px white;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    font-size: 18px;
+
+    &:hover{
+        transform: scale(1.1);
+        color: $color-principal;
+    }
+
+    .imagen-trabajos{
+        width: 350px;
+        border-radius: 6px;
+    }
+
+    .titulo-tarjeta{
+        margin-top: 12px;
+    }
+
+    &:hover{
+        color:$color-principal
+    }
+
+    .texto-tarjeta{
+        color: $color-secundario;
+    }
+}
+    
