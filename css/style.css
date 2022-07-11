@@ -6,15 +6,26 @@
   color: grey;
 }
 
-.boton-color {
+.boton-color, .boton-marron {
   background-color: rgb(231, 150, 0);
   border: 0;
 }
-.boton-color:hover {
+.boton-color:hover, .boton-marron:hover {
   transform: scale(1.05);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.514);
   border: 0;
   background-color: rgb(187, 121, 0);
+}
+
+.boton-marron {
+  background-color: rgb(92, 10, 10);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.boton-marron:hover {
+  background-color: rgb(56, 7, 7);
 }
 
 .tarjeta-1 {
@@ -133,6 +144,46 @@
   color: grey;
 }
 
+.titulo {
+  font-size: 36px;
+}
+
+.subtitulo {
+  font-size: 28;
+}
+
+.titulo-card {
+  font-size: 20px;
+}
+
+.parrafos {
+  font-size: 16px;
+}
+
+.boton-linkedin {
+  color: #0e76a8;
+}
+
+.boton-facebook {
+  color: #3b5998;
+}
+
+.boton-twitter {
+  color: #00acee;
+}
+
+.col-1 {
+  width: 1% 1;
+}
+
+.col-2 {
+  width: 1% 2;
+}
+
+.col-3 {
+  width: 1% 3;
+}
+
 .titulo-header:hover {
   transform: scale(1.15);
 }
@@ -233,6 +284,10 @@
   margin-bottom: 24px;
   font-size: 36px;
   text-align: center;
+}
+
+.iconos {
+  padding: 40px;
 }
 
 .seccion-sobre-nosotros {

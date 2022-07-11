@@ -1,0 +1,19 @@
+@mixin fontSize ($size) {
+    font-size: $size;
+}
+
+.titulo{
+    @include fontSize(36px)
+}
+
+.subtitulo{
+    @include fontSize(28)
+}
+
+.titulo-card{
+    @include fontSize(20px)
+}
+
+.parrafos{
+    @include fontSize(16px)
+}

@@ -1,0 +1,26 @@
+$redes: (
+    Linkedin: #0e76a8,
+    Facebook: #3b5998,
+    twitter: #00acee,
+);
+
+.boton-linkedin{
+    color: map-get($map: $redes, $key: Linkedin );
+
+}
+
+.boton-facebook{
+    color: map-get($map: $redes, $key: Facebook );
+
+}
+
+.boton-twitter{
+    color: map-get($map: $redes, $key: twitter );
+}
+
+@for $i from 1 through 3 {
+    .col-#{$i} {
+        width: 1%  $i;
+    }
+    
+} 
