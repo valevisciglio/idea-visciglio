@@ -256,19 +256,19 @@
 .grilla-1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 400px);
+  grid-template-rows: repeat(2, 275px);
   margin-left: 80px;
   margin-right: 80px;
 }
+
 @media screen and (max-width: 780px) {
-  .grilla-1 .grilla-1 {
+  .grilla-1 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     margin-left: 16px;
     margin-right: 16px;
   }
 }
-
 .grilla-img {
   overflow: hidden;
   background-size: cover;
